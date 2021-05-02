@@ -1,0 +1,8 @@
+<?php
+$con=mysqli_connect("localhost","root","","API_DATA");//here server is localhost username is root and password is empty and database name is api data
+if($con)
+{
+echo "connected";
+}
+?>
+
